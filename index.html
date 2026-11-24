@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Khushi Kumari's personal portfolio website.">
+  <title>Khushi Kumari | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">K<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-contact" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="container hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> STUDENT • ASPIRING DEVELOPER</p>
+        <h1>Hi, I'm <span class="gradient-text">Khushi Kumari</span></h1>
+        <h2>Learning, building & growing in technology.</h2>
+        <p class="hero-description">
+          I'm a B.Tech CSE student specialising in Artificial Intelligence and Machine Learning.
+          I enjoy learning how technology works and creating projects that turn ideas into reality.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-outline" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> Curious mind. Consistent learner.</div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About section">SCROLL <span>↓</span></a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>A little <span class="gradient-text">about me</span></h2>
+        </div>
+        <div class="about-card glass-card">
+          <div class="about-mark" aria-hidden="true">K<span>.</span></div>
+          <div>
+            <h3>Learning today, creating for tomorrow.</h3>
+            <p>
+              Hello! I'm Khushi, a B.Tech student in Computer Science and Engineering
+              (AI &amp; ML) at Shri Ramswaroop Memorial University. I'm building my
+              foundation in programming, web development and problem-solving.
+            </p>
+            <p>
+              I believe in learning by doing. I like exploring new concepts, working
+              on academic projects and improving my skills one step at a time.
+            </p>
+            <div class="about-tags">
+              <span>Problem solving</span><span>Web development</span><span>Learning AI &amp; ML</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / EDUCATION</p>
+          <h2>My learning <span class="gradient-text">journey</span></h2>
+        </div>
+        <article class="timeline-card glass-card">
+          <div class="timeline-icon">🎓</div>
+          <div class="timeline-copy">
+            <p class="timeline-date">CURRENTLY PURSUING</p>
+            <h3>Bachelor of Technology (B.Tech)</h3>
+            <p class="accent-text">Computer Science &amp; Engineering — AI &amp; ML</p>
+            <p>Shri Ramswaroop Memorial University, Lucknow</p>
+            <p class="muted">Building a strong foundation in computer science, programming and emerging technologies.</p>
+          </div>
+        </article>
+        <!-- Add your school name and passing year here if your teacher asks for them. -->
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">03 / SKILLS</p>
+          <h2>Things I'm <span class="gradient-text">learning</span></h2>
+          <p class="section-intro">A growing toolkit. I'm continuously practising and improving these skills.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card glass-card"><span class="skill-number">01</span><div class="skill-icon">&lt;/&gt;</div><h3>HTML</h3><p>Structuring web pages</p><span class="level">Beginner</span></article>
+          <article class="skill-card glass-card"><span class="skill-number">02</span><div class="skill-icon">✦</div><h3>CSS</h3><p>Styling and responsive layouts</p><span class="level">Beginner</span></article>
+          <article class="skill-card glass-card"><span class="skill-number">03</span><div class="skill-icon">{ }</div><h3>JavaScript</h3><p>Adding interactivity</p><span class="level">Beginner</span></article>
+          <article class="skill-card glass-card"><span class="skill-number">04</span><div class="skill-icon">☕</div><h3>Java</h3><p>Programming fundamentals</p><span class="level">Learning</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">04 / PROJECTS</p>
+          <h2>What I've <span class="gradient-text">worked on</span></h2>
+        </div>
+        <article class="project-card glass-card">
+          <div class="project-visual">
+            <div class="door-illustration">
+              <div class="door-frame"><div class="door-panel"><span></span></div></div>
+              <div class="sensor-dot"></div>
+              <div class="sensor-wave wave-a"></div>
+              <div class="sensor-wave wave-b"></div>
+            </div>
+            <span class="project-label">ACADEMIC PROJECT</span>
+          </div>
+          <div class="project-info">
+            <p class="project-index">PROJECT 01</p>
+            <h3>Automatic Door Using Arduino Uno</h3>
+            <p>
+              An academic model that demonstrates how an automatic door system can
+              respond to a sensor input. The project helped me explore basic electronics,
+              Arduino and the connection between hardware and automation.
+            </p>
+            <div class="project-tags"><span>Arduino Uno</span><span>Sensor</span><span>Automation</span></div>
+            <p class="project-note">More projects will be added as I continue learning.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <p class="eyebrow">05 / CONTACT</p>
+          <h2>Let's connect<span class="gradient-text">.</span></h2>
+          <p>Have a question, an idea or an opportunity to learn together? Feel free to reach out.</p>
+          <a class="button button-primary" id="email-link" href="mailto:khushiri2388@mail.com">Send me an email <span>↗</span></a>
+          <p class="contact-hint">Remember to replace the sample email and add your profile links before publishing.</p>
+          <div class="social-links">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">K<span>.</span></a>
+      <p>Designed &amp; built by Khushi Kumari</p>
+      <p>© <span id="year"></span> All rights reserved.</p>
+    </div>
+  </footer>
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>
